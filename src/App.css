@@ -7,6 +7,179 @@
   pointer-events: none;
 }
 
+
+hr {
+  border-top: dotted 15px;
+  width: 15%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #FFBFBF;
+  opacity: 1;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+
+
+
+.navbar{
+  padding: 15px;
+  /* logo size */
+  --bs-navbar-brand-font-size: 1.5rem; 
+}
+
+.navbar li{
+  --bs-navbar-nav-link-padding-x: 1rem;
+  font-size: 21px;
+}
+
+
+
+
+.section-top{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../public/img/pexels-photo-4792401.webp");
+  width: 100%;
+  height: 28rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  margin-top: 60px;
+}
+
+
+.div-text-title{
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-title{
+  position: relative;
+}
+
+.text-title h1{
+
+  font-family: 'Croissant One', cursive;
+  letter-spacing: 0.5rem;
+  background: linear-gradient(rgb(238 173 173), rgb(255 0 0 / 0%));
+  -webkit-text-fill-color: #ffa0a038;
+  -webkit-background-clip: text;
+  font-size: 4rem;
+
+
+}
+
+.section h1 {
+  font-family: 'Croissant One', cursive;
+  font-size: 4.5rem;
+
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgb(243 143 143 / 90%), #272323);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  margin-bottom: 40px;
+  
+}
+.section a{
+  color: white;
+}
+
+
+
+.cakesRow{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+
+  background-color: #c88181;
+}
+
+.img-fluid {
+ 
+  height: 192px;
+  width: 290px;
+}
+
+
+
+.footer{
+  background: linear-gradient(300deg, #00bfff, #efa7c5, #3d373b);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  color: white;
+}
+.contact-us{
+  width: 50%;
+}
+.icons {
+  font-size: 2rem;
+}
+
+.footer h4{
+  font-size: 15px;
+}
+
+/* .sectionTasty a{
+  color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+
+} */
+
+.grid{
+
+  display: grid;
+  gap: 10px;
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 30rem;
+
+}
+.grid a{
+  color: white;
+}
+
+
+.gridItem{
+/* filter: brightness(0.5); */
+display: flex;
+justify-content: center;
+align-items: end;
+position: relative;
+height: 100%;
+}
+
+
+
+.gridItem h4 {
+  color: white;
+  bottom: 30px;
+  position: relative;
+}
+.gridItem3{
+  grid-row: span 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
