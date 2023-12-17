@@ -26,6 +26,7 @@ function Tasty() {
                         img={breadImage}
                     />
                     <GridItem
+                        href="cookies"
                         title="עוגיות"
                         img={cookiesImage}
                     />
@@ -35,6 +36,7 @@ function Tasty() {
                         class="gridItem3"
                     />
                     <GridItem
+                     href="catering"
                         title="קייטרינג"
                         img={cateringImage}
                     />

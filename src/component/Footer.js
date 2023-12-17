@@ -9,7 +9,7 @@ function Footer() {
     return (
         <div>
 
-            <div class="footer text-center  bg-primary justify-content-center py-5 mt-5" >
+            <div class="footer text-center  bg-primary justify-content-center py-5 mt-5" id="section-contact-us" >
 
                 <div class="contact-us container" >
 
@@ -27,7 +27,7 @@ function Footer() {
                 </div>
 
 
-                <div id="section-contact-us" class="contact-us container mt-5">
+                <div  class="contact-us container mt-5">
 
 
                     <h1>ליצירת קשר</h1>

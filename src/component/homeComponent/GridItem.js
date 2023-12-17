@@ -9,7 +9,7 @@ function GridItem(props) {
 
 
 
-        <a href="/s" className={`${props.class}`}>
+        <a href={`${props.href}`} className={`${props.class}`}>
             <div className="gridItem" style={{ background: `${linearDarkImage},url(${props.img}) center/cover` }}>
                 <h4>{props.title} </h4>
             </div>
