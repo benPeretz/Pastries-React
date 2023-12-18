@@ -2,7 +2,7 @@ const carouselPastries = {
     firstRow: {
         item1: {
             name: "classic2",
-            id: 1,
+            id: 20,
             title: "לחמניית בריוש",
             content: "38₪",
             img: "./img/bread.jpg"
@@ -10,7 +10,7 @@ const carouselPastries = {
         },
         item2: {
             name: "orange",
-            id: 2,
+            id: 21,
             title: "מאפה תפוזים",
             content: "45₪",
             img: "./img/pateries-orang.jpg"
@@ -18,7 +18,7 @@ const carouselPastries = {
         },
         item3: {
             name: "classic",
-            id: 3,
+            id: 22,
             title: "מאפה קלאסי",
             content: "42₪",
             img: "./img/pastries-corason.jpg"
@@ -26,7 +26,7 @@ const carouselPastries = {
         },
         item4: {
             name: "classicChocolate",
-            id: 4,
+            id: 23,
             title: "מאפה קלאסי שוקולד",
             content: "51₪",
             img: "./img/pastries-corason2.jpg"
@@ -36,7 +36,7 @@ const carouselPastries = {
     secondeRow: {
         item1: {
             name: "classic2",
-            id: 5,
+            id: 24,
             title: "לחמניית בריוש",
             content: "34₪",
             img: "./img/bread.jpg"
@@ -44,7 +44,7 @@ const carouselPastries = {
         },
         item2: {
             name: "orange",
-            id: 6,
+            id: 25,
             title: "מאפה תפוזים",
             content: "46₪",
             img: "./img/pateries-orang.jpg"
@@ -52,7 +52,7 @@ const carouselPastries = {
         },
         item3: {
             name: "classic",
-            id: 7,
+            id: 26,
             title: "מאפה קלאסי",
             content: "72₪",
             img: "./img/pastries-corason.jpg"
@@ -60,7 +60,7 @@ const carouselPastries = {
         },
         item4: {
             name: "classicChocolate",
-            id: 8,
+            id: 27,
             title: "מאפה קלאסי שוקולד",
             content: "29₪",
             img: "./img/pastries-corason2.jpg"
@@ -216,7 +216,17 @@ const allProducts = {
             img: "./img/pastries-corason.jpg",
             img2: "./img/pastries-corason.jpg"
 
+        },
+        classicChocolate2: {
+            name:"classicChocolate2",
+            id: 50,
+            title: "מאפה קלאסי שוקולד",
+            content: "51₪",
+            img: "./img/pastries-corason2.jpg",
+            img2: "./img/pastries-corason2.jpg"
+
         }
+        
     },
 
     catering: {
@@ -331,25 +341,25 @@ const allProducts = {
 const allTopic={
 
     cakes:{
-        id:1,
+        id:28,
         name:"cakes",
         img:"./img/first-cake.jpg"
 
     },
     pastries:{
-        id:2,
+        id:29,
         name:"pastries",
         img:"./img/pastries-corason.jpg"
 
     },
     catering:{
-        id:3,
+        id:30,
         name:"catering",
         img:"./img/Catering.jpg"
 
     },
     cookies:{
-        id:4,
+        id:31,
         name:"cookies",
         img:"./img/cookies.jpg"
 

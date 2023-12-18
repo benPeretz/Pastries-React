@@ -37,7 +37,7 @@ function SubjectProduct(props) {
 
 
 
-    const linearDarkImage = "linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50))"
+    const linearDarkImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))"
 
     return (
         <div>

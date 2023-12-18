@@ -1,13 +1,11 @@
 import React from "react";
 
 
-function Carousel(props) {
 
-
+function SingleProductCarousel(props){
 
 
     return (
-
 
         <div id={props.carouselId} class="carousel slide">
             <div class="carousel-inner container">
@@ -35,10 +33,10 @@ function Carousel(props) {
     );
 
 
+
 }
 
-export default Carousel;
-
+export default SingleProductCarousel;
 
 
 

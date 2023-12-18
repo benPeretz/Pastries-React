@@ -5,20 +5,22 @@ import Pastries from "./Pastries";
 import Footer from "../Footer";
 import Tasty from "./Tasty";
 
+
 function Home() {
+
 
     return (
         <div>
 
-        <SectionTop />
-        <Cakes />
-        <hr />
-        <Pastries />
-        <hr />
+            <SectionTop />
+            <Cakes />
+            <hr />
+            <Pastries />
+            <hr />
 
-        <Tasty />
-        <hr />
-        <Footer />
+            <Tasty />
+            <hr />
+            <Footer />
 
 
         </div>

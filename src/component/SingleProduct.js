@@ -1,8 +1,8 @@
 import React from "react";
-import Carousel from "./Carousel";
+//import Carousel from "./CustomCarousel";
 import Footer from "./Footer";
 import { allProducts } from "../Data";
-
+import SingleProductCarousel from "./homeComponent/SingleProductCarousel";
 
 function SingleProduct(props) {
 
@@ -26,7 +26,7 @@ function SingleProduct(props) {
 
                     <div className="productCarouselImages">
                         <div className="align-self-center w-100">
-                            <Carousel
+                            <SingleProductCarousel
                                 carouselId="carouselSingleProduct"
                                 carouselItemActiv={
                                     <img src={`.${product.img}`} className="d-block w-100" alt="..." />//fix this - the path
